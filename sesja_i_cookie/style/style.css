@@ -1,0 +1,116 @@
+html, body
+{
+    margin: auto;
+    background: rgb(78, 78, 78);
+    width: 100%;
+}
+header
+{
+    background: #000;
+    color: #fff;
+    height: 50px;
+    border-bottom:  #16c9ff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 5px;
+    width: 100px;
+}
+footer
+{
+    bottom: 0;
+    position: fixed;
+}
+
+.header_menu
+{
+    margin-top: 15px;
+    float: left;
+    margin-left: 12%;
+}
+a:hover
+{
+    
+    
+    color: rgb(148, 247, 18);
+    
+}
+.header_menu:hover
+{
+    border-left: #16c9ff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+#formularz_kontaktowy
+{
+    text-align: center;
+}
+input
+{
+    font-size: 20px;
+    color: #abaeae;
+    padding: 15px 0px 15px 70px;
+    width: 31%;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+}
+
+input.nazwisko
+{
+    margin-top: 10%;
+    background-image: url(../image/ikona_dane.png);
+    background-repeat: no-repeat;
+    background-position: 18px 14px;
+}
+input.imie
+{
+    margin-top: 30px;
+    background-image: url(../image/ikona_dane.png);
+    background-repeat: no-repeat;
+    background-position: 18px 14px;
+
+}
+input.telefon
+{
+    margin-top: 30px;
+    background-image: url(../image/ikona_kontakt.png);
+    background-repeat: no-repeat;
+    background-position: 18px 14px;
+
+}
+input.mail
+{
+    margin-top: 30px;
+    background-image: url(../image/ikona_kontakt.png);
+    background-repeat: no-repeat;
+    background-position: 18px 14px;
+}
+input.login
+{
+    margin-top: 3%;
+    background-image: url(../image/ikona_dane.png);
+    background-repeat: no-repeat;
+    background-position: 18px 14px;
+
+}
+input.haslo
+{
+    margin-top: 30px;
+    background-image: url(../image/ikona_dane.png);
+    background-repeat: no-repeat;
+    background-position: 18px 14px;
+
+}
+input.nazwisko1
+{
+    margin-top: 30px;
+    background-image: url(../image/ikona_dane.png);
+    background-repeat: no-repeat;
+    background-position: 18px 14px;
+
+}
